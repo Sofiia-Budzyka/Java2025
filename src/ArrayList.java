@@ -17,7 +17,6 @@ public class ArrayList {
             System.out.print(color + " ");
         }
         System.out.println();
-
         //3
         colors.add(0, "Жовтий");
         System.out.println("3. Після вставки 'Жовтий' на початок: " + colors);
