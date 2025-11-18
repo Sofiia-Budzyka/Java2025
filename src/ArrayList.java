@@ -70,6 +70,6 @@ public class ArrayList {
 
         //15
         listForSizing.trimToSize();
-        System.out.println("15. Місткість обрізано до поточного розміру (trimToSize).");
+        System.out.println("15. Місткість обрізано до поточного розміру (trimToSize)." + listForSizing);
     }
 }
