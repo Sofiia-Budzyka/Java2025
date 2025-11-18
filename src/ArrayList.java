@@ -10,7 +10,6 @@ public class ArrayList {
         colors.add("Білий");
         colors.add("Чорний");
         System.out.println("Початковий список: " + colors);
-
         //2
         System.out.print("2. Ітерація через for-each: ");
         for (String color : colors) {
@@ -20,7 +19,6 @@ public class ArrayList {
         //3
         colors.add(0, "Жовтий");
         System.out.println("3. Після вставки 'Жовтий' на початок: " + colors);
-
         //4
         String elementAtIndex = colors.get(2);
         System.out.println("4. Елемент під індексом 2: " + elementAtIndex);
