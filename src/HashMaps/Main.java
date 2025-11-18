@@ -6,7 +6,6 @@ public class Main {
     public static void main(String[] args) {
         GradeBook gradeBook = new GradeBook();
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Вітаємо в системі управління оцінками!");
         for (int i = 1; i <= 2; i++) {
             System.out.println("\nВведіть дані для студента №" + i);
 
