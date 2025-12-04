@@ -10,12 +10,12 @@ public class Main {
         ListNode result1 = solution.mergeTwoLists(list1, list2);
         printList(result1);
         //Example 2
-        ListNode list3 = new ListNode();
-        ListNode list4 = new ListNode();
+        ListNode list3 = null;
+        ListNode list4 = null;
         ListNode result2 = solution.mergeTwoLists(list3, list4);
         printList(result2);
         //Example 3
-        ListNode list5 = new ListNode();
+        ListNode list5 = null;
         ListNode list6 = new ListNode(0);
         ListNode result3 = solution.mergeTwoLists(list5, list6);
         printList(result3);
